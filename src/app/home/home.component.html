@@ -1,0 +1,24 @@
+<app-navigation></app-navigation>
+<div class="container pt-3 pb-2">
+<div class="card">
+    <h5 class="card-header">Sensor Readings
+        
+    </h5>
+    
+    <div class="card-body">
+        <div style="display: block;">
+            <canvas baseChart width="200" height="80"
+              [datasets]="lineChartData"
+              [labels]="lineChartLabels"
+              [options]="lineChartOptions"
+              [colors]="lineChartColors"
+              [legend]="lineChartLegend"
+              [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+            </canvas>
+          </div>
+    </div>
+     <!-- {{sensorData | json}} -->
+     <a class="weatherwidget-io" href="https://forecast7.com/en/36d37n94d21/bentonville/?unit=us" data-label_1="BENTONVILLE" data-label_2="WEATHER" data-icons="Climacons Animated" data-theme="dark" >BENTONVILLE WEATHER</a>
+  </div>
+</div>

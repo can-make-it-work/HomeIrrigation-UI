@@ -1,0 +1,30 @@
+[
+    {
+        "id": 23,
+        "locationID": 1,
+        "sensorID": 1,
+        "moisture": 0,
+        "recordedTS": "2020-04-28T22:53:38"
+    },
+    {
+        "id": 24,
+        "locationID": 1,
+        "sensorID": 1,
+        "moisture": 1,
+        "recordedTS": "2020-04-28T22:57:20"
+    },
+    {
+        "id": 25,
+        "locationID": 1,
+        "sensorID": 1,
+        "moisture": 1,
+        "recordedTS": "2020-04-28T22:57:30"
+    },
+    {
+        "id": 26,
+        "locationID": 1,
+        "sensorID": 1,
+        "moisture": 1,
+        "recordedTS": "2020-04-28T22:57:40"
+    }
+]
