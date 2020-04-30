@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './core/navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { WeatherwidgetComponent } from './weatherwidget/weatherwidget.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    HomeComponent
+    HomeComponent,
+    WeatherwidgetComponent
   ],
   imports: [
     BrowserModule,
